@@ -1,0 +1,19 @@
+.Queries-setting__content {
+    text-align: center;
+}
+
+.Queries-setting__btn {
+    border: 1px solid #ceceee;
+    background: darkslateblue ;
+    padding: 5px;
+    border-radius: 15px;
+    transition: .5s linear;
+}
+.Queries-setting__btn:hover {
+    color: white;
+    background: slateblue;
+}
+.Queries-setting__btn:focus {
+    color: white;
+    background: slateblue;
+}

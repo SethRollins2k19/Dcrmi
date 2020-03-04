@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 0;
+    grid-row-end: -1;
+    padding: 15px 20px;
+    background: darkslateblue;
+}
+/*header user*/
+
+.header__user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__avatar{
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #ceceee;
+}
+.header__username{
+    color: white;
+    margin-left: 20px;
+}
+/*nav*/
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav__item:first-child{
+    margin-top: 30px;
+}
+.nav__item{
+    text-transform: uppercase;
+    margin: 10px 0 ;
+    transition: .5s linear;
+}
+.nav__item:hover{
+    color: yellow;
+}

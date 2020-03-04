@@ -1,0 +1,24 @@
+/*.Queries__content{*/
+
+/*}*/
+
+.Table{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cccccc;
+    width: 100%;
+}
+
+.Table__item{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr;
+}
+.Table__item:not(:last-of-type){
+    border-bottom: 1px solid black;
+}
+.Table__title{
+    padding: 5px;
+}
+.Table__title:not(:first-of-type){
+    border-left: 1px solid black;
+}

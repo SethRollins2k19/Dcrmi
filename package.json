@@ -2,13 +2,15 @@
   "name": "dcrmi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sethrollins2k19.github.io/ModusReactApp",
+  "homepage": "https://sethrollins2k19.github.io/Dcrmi",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "chart.js": "^2.9.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
   "scripts": {

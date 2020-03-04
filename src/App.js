@@ -1,24 +1,30 @@
+//react env
 import React from 'react';
-import logo from './logo.svg';
+import { Switch, Route } from 'react-router-dom'
+//assets
+import {_} from "./util";
+//components
+import HeaderComponent from "./components/HeaderComponent";
+import OrganisationPage from "./Pages/OrganisationPage";
+import QueriesPage from "./Pages/QueriesPage";
+import QueriesSettingPage from "./Pages/QueriesSettingPage";
+import SettingKeyPage from "./Pages/SettingKeyPage";
+import {Page404} from "./Pages/404Page";
+
+//style
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <HeaderComponent/>
+        <Switch className="App__inner">
+            <Route exact path={`${_.defaultBrowserPosition}`} component={OrganisationPage}/>
+            <Route exact path={`${_.defaultBrowserPosition}Queries`} component={QueriesPage}/>
+            <Route exact path={`${_.defaultBrowserPosition}SettingQueries`} component={QueriesSettingPage}/>
+            <Route exact path={`${_.defaultBrowserPosition}SettingKey`} component={SettingKeyPage}/>
+            <Route component={Page404}/>
+        </Switch>
     </div>
   );
 }
