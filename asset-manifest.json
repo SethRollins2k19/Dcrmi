@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ModusReactApp/static/css/main.d1b05096.chunk.css",
-    "main.js": "/ModusReactApp/static/js/main.027a2f30.chunk.js",
-    "main.js.map": "/ModusReactApp/static/js/main.027a2f30.chunk.js.map",
-    "runtime-main.js": "/ModusReactApp/static/js/runtime-main.593b8dd9.js",
-    "runtime-main.js.map": "/ModusReactApp/static/js/runtime-main.593b8dd9.js.map",
-    "static/js/2.4414439b.chunk.js": "/ModusReactApp/static/js/2.4414439b.chunk.js",
-    "static/js/2.4414439b.chunk.js.map": "/ModusReactApp/static/js/2.4414439b.chunk.js.map",
-    "index.html": "/ModusReactApp/index.html",
-    "precache-manifest.babae9affb5ffa569238ad9c20a1fbfd.js": "/ModusReactApp/precache-manifest.babae9affb5ffa569238ad9c20a1fbfd.js",
-    "service-worker.js": "/ModusReactApp/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/ModusReactApp/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.4414439b.chunk.js.LICENSE.txt": "/ModusReactApp/static/js/2.4414439b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ModusReactApp/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Dcrmi/static/css/main.d1b05096.chunk.css",
+    "main.js": "/Dcrmi/static/js/main.e39d79ed.chunk.js",
+    "main.js.map": "/Dcrmi/static/js/main.e39d79ed.chunk.js.map",
+    "runtime-main.js": "/Dcrmi/static/js/runtime-main.33a0a32a.js",
+    "runtime-main.js.map": "/Dcrmi/static/js/runtime-main.33a0a32a.js.map",
+    "static/js/2.4414439b.chunk.js": "/Dcrmi/static/js/2.4414439b.chunk.js",
+    "static/js/2.4414439b.chunk.js.map": "/Dcrmi/static/js/2.4414439b.chunk.js.map",
+    "index.html": "/Dcrmi/index.html",
+    "precache-manifest.59bf5a3df9cc5467e511dbc02d8b5b76.js": "/Dcrmi/precache-manifest.59bf5a3df9cc5467e511dbc02d8b5b76.js",
+    "service-worker.js": "/Dcrmi/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/Dcrmi/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.4414439b.chunk.js.LICENSE.txt": "/Dcrmi/static/js/2.4414439b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Dcrmi/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.593b8dd9.js",
+    "static/js/runtime-main.33a0a32a.js",
     "static/js/2.4414439b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.027a2f30.chunk.js"
+    "static/js/main.e39d79ed.chunk.js"
   ]
 }
